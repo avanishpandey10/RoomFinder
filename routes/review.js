@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router({mergeParams:true});// reviews add karne ka id yaha bhi aayega
 //const ExpressError = require("../utils/expressError.js");
 const wrapAsync = require("../utils/wrapAsync.js");
-const Review = require("../models/review.js");
+const Review = require("../models/review.js"); 
 const Listing = require("../models/listing.js");
 const {validateReview, isLoggedIn, isReviewAuthor} = require("../middleware.js");
 
